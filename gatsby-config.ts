@@ -7,7 +7,7 @@ const config: GatsbyConfig = {
       resolve: `gatsby-plugin-jaen`,
       options: {
         remote: {
-          repository: "agt-guntrade/shop",
+          repository: "agt-guntrade/agt-guntrade.at",
         },
         zitadel: {
           organizationId: "253329432192745475",
