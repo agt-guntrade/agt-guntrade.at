@@ -7,7 +7,7 @@ const config: GatsbyConfig = {
       resolve: `gatsby-plugin-jaen`,
       options: {
         remote: {
-          repository: "cronitio/jaen-template",
+          repository: "agt-guntrade/shop",
         },
         zitadel: {
           organizationId: "252746033782587395",
@@ -15,14 +15,14 @@ const config: GatsbyConfig = {
           authority: "https://accounts.cronit.io",
           redirectUri:
             process.env.NODE_ENV === "production"
-              ? "https://jaen.cronit.io"
+              ? "https://agt-guntrade.at"
               : "http://localhost:8000",
           projectIds: [],
         },
         sentry: {
           org: "cronit",
-          project: "jaen-template",
-          dsn: "https://8cf5387b2f582fe891bec2f517ed09dc@sentry.cronit.io/5",
+          project: "agt-guntrade",
+          dsn: "https://c0719152fd8297c15d5a3a8b181bfdb0@sentry.cronit.io/4",
         },
       },
     },
