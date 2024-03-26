@@ -10,7 +10,7 @@ const config: GatsbyConfig = {
           repository: "agt-guntrade/shop",
         },
         zitadel: {
-          organizationId: "252746033782587395",
+          organizationId: "253329432192745475",
           clientId: "252746210698395651@services",
           authority: "https://accounts.cronit.io",
           redirectUri:
