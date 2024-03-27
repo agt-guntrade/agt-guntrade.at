@@ -9,10 +9,10 @@ const IndexPage: React.FC<PageProps> = () => {
 
   return (
     <div className="space-y-4">
-      <div className="m-4 flex flex-col overflow-hidden xl:m-0 xl:h-dvh xl:flex-row">
+      <div className="m-2 flex flex-col space-y-4 overflow-hidden xl:m-0 xl:h-dvh xl:flex-row xl:space-y-0">
         <a
           href="https://ferlach.agt-guntrade.at"
-          className="relative order-2 flex h-2/5 w-full cursor-pointer items-center justify-center overflow-hidden rounded-t-xl transition-all duration-300 ease-in-out hover:scale-110 xl:order-1 xl:m-4 xl:mr-auto xl:h-auto xl:w-2/5 xl:rounded-xl xl:rounded-b-xl"
+          className="relative isolate order-2 flex h-96 w-full cursor-pointer items-center justify-center overflow-hidden rounded-xl transition-all duration-300 ease-in-out xl:order-1 xl:m-4 xl:mr-auto xl:h-auto xl:w-2/5 xl:hover:scale-110"
         >
           <StaticImage
             src="../images/ferlach.jpg"
@@ -34,13 +34,13 @@ const IndexPage: React.FC<PageProps> = () => {
             </Button>
           </div>
         </a>
-        <div className="relative z-10 order-1 flex w-full flex-1 flex-col items-center justify-center bg-white xl:order-2 xl:p-8">
+        <div className="z-10 order-1 flex w-full flex-1 flex-col items-center justify-center bg-white xl:order-2 xl:p-8">
           <img
             src={logo}
             alt="AGT Guntrade Logo"
-            className="h-auto object-contain sm:max-w-xs"
+            className="mb-4 h-auto object-contain sm:max-w-xs"
           />
-          <div className="bottom-0 hidden  p-4 xl:absolute xl:block">
+          <div className="bottom-0 hidden p-4 xl:absolute xl:block">
             <a
               href="https://firmen.wko.at/agt-gun-trade-gmbh/k%C3%A4rnten/?firmaid=81376d08-4dbd-49e3-ade0-adb6684ef336"
               target="_blank"
@@ -53,7 +53,7 @@ const IndexPage: React.FC<PageProps> = () => {
         </div>
         <a
           href="https://ried.agt-guntrade.at"
-          className="relative order-3 flex h-2/5 w-full cursor-pointer items-center justify-center overflow-hidden rounded-b-xl transition-all duration-300 ease-in-out hover:scale-110 xl:order-3 xl:m-4 xl:ml-auto xl:h-auto xl:w-2/5 xl:rounded-xl xl:rounded-t-xl"
+          className="relative isolate order-3 flex h-96 w-full cursor-pointer items-center justify-center overflow-hidden rounded-xl transition-all duration-300 ease-in-out xl:order-3 xl:m-4 xl:ml-auto xl:h-auto xl:w-2/5 xl:hover:scale-110"
         >
           <StaticImage
             src="../images/ried.jpg"
