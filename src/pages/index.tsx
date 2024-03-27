@@ -24,7 +24,7 @@ const IndexPage: React.FC<PageProps> = () => {
             <h2 className="mb-2 scale-100 transform text-3xl font-bold text-white transition-transform">
               Filiale <span className="text-red-500">Ferlach</span>
             </h2>
-            <h2 className="mb-2 scale-100 transform text-2xl font-bold text-white transition-transform">
+            <h2 className="mb-2 scale-100 transform text-center text-2xl font-bold text-white transition-transform">
               (Ehemalig Waffenhandel Türk)
             </h2>
 
