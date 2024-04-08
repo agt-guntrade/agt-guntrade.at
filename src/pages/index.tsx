@@ -6,7 +6,7 @@ import logo from "../images/logo.svg";
 import { Link } from "gatsby-plugin-jaen";
 
 const IndexPage: React.FC<PageProps> = () => {
-  const { isAuthenticated, user } = useAuth();
+  // const { isAuthenticated, user } = useAuth();
 
   return (
     <div className="space-y-4">
@@ -59,9 +59,8 @@ const IndexPage: React.FC<PageProps> = () => {
           </div>
         </div>
         <a
-          //href="https://ried.agt-guntrade.at"
-          href="#"
-          className="pointer-event-none relative isolate order-3 flex h-96 w-full cursor-not-allowed items-center justify-center overflow-hidden rounded-xl transition-all duration-300 ease-in-out xl:order-3 xl:m-4 xl:ml-auto xl:h-auto xl:w-2/5 xl:hover:scale-110"
+          href="https://ried.agt-guntrade.at"
+          className="relative isolate order-3 flex h-96 w-full cursor-pointer items-center justify-center overflow-hidden rounded-xl transition-all duration-300 ease-in-out xl:order-3 xl:m-4 xl:ml-auto xl:h-auto xl:w-2/5 xl:hover:scale-110"
         >
           <StaticImage
             src="../images/ried.jpg"
@@ -73,13 +72,13 @@ const IndexPage: React.FC<PageProps> = () => {
             <h2 className="mb-2 scale-100 transform text-3xl font-bold text-white transition-transform">
               Filiale <span className="text-red-500">Ried</span>
             </h2>
-            <h2 className="mb-2 scale-100 transform text-center text-2xl font-bold text-white transition-transform">
+            {/* <h2 className="mb-2 scale-100 transform text-center text-2xl font-bold text-white transition-transform">
               (Ab dem 10. April 2024 auch online verfügbar)
-            </h2>
+            </h2> */}
             <p className="mb-4 text-white">
               Wildfellnerstraße 22, 4910 Ried im Innkreis
             </p>
-            <Button className="cursor-not-allowed bg-red-500" size="lg">
+            <Button className="bg-red-500" size="lg">
               Zur Filiale
             </Button>
           </div>
