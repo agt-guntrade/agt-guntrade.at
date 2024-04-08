@@ -3,6 +3,7 @@ import { PageConfig, PageProps, useAuth } from "@atsnek/jaen";
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import logo from "../images/logo.svg";
+import { Link } from "gatsby-plugin-jaen";
 
 const IndexPage: React.FC<PageProps> = () => {
   const { isAuthenticated, user } = useAuth();
@@ -41,14 +42,20 @@ const IndexPage: React.FC<PageProps> = () => {
             className="mb-4 h-auto object-contain sm:max-w-xs"
           />
           <div className="bottom-0 hidden p-4 xl:absolute xl:block">
-            <a
+            {/* <a
               href="https://firmen.wko.at/agt-gun-trade-gmbh/k%C3%A4rnten/?firmaid=81376d08-4dbd-49e3-ade0-adb6684ef336"
               target="_blank"
               rel="noopener noreferrer"
               className=" text-blue-500 underline"
             >
               Impressum
-            </a>
+            </a> */}
+            <Link to="/impressum" className="p-4 text-blue-500 underline">
+              Impressum
+            </Link>
+            <Link to="/agb" className="p-4 text-blue-500 underline">
+              AGB
+            </Link>
           </div>
         </div>
         <a
@@ -78,15 +85,21 @@ const IndexPage: React.FC<PageProps> = () => {
           </div>
         </a>
       </div>
-      <div className="order-4 w-full p-4 text-left xl:hidden">
-        <a
+      <div className="order-4 flex w-full space-x-2 p-4 text-left xl:hidden">
+        {/* <a
           href="https://firmen.wko.at/agt-gun-trade-gmbh/k%C3%A4rnten/?firmaid=81376d08-4dbd-49e3-ade0-adb6684ef336"
           target="_blank"
           rel="noopener noreferrer"
           className="p-4 text-blue-500 underline"
         >
           Impressum
-        </a>
+        </a> */}
+        <Link to="/impressum" className="p-4 text-blue-500 underline">
+          Impressum
+        </Link>
+        <Link to="/agb" className="p-4 text-blue-500 underline">
+          AGB
+        </Link>
       </div>
     </div>
   );
