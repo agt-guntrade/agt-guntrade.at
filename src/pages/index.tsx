@@ -23,7 +23,7 @@ const IndexPage: React.FC<PageProps> = () => {
           <div className="absolute inset-0 rounded-md bg-gray-700 opacity-70"></div>
           <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
             <h2 className="mb-2 scale-100 transform text-3xl font-bold text-white transition-transform">
-              Filiale <span className="text-red-500">Ferlach</span>
+              Standort <span className="text-red-500">Ferlach</span>
             </h2>
             <h2 className="mb-2 scale-100 transform text-center text-2xl font-bold text-white transition-transform">
               (Ehemalig Waffenhandel Türk)
@@ -31,7 +31,7 @@ const IndexPage: React.FC<PageProps> = () => {
 
             <p className="mb-4 text-white">Reßnig 20, 9170 Ferlach</p>
             <Button className="bg-red-500" size="lg">
-              Zur Filiale
+              Zum Standort
             </Button>
           </div>
         </a>
