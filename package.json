@@ -16,13 +16,13 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@atsnek/jaen": "^1.0.0-rc.83",
+    "@atsnek/jaen": "^1.0.0-rc.86",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "gatsby": "^5.13.3",
     "gatsby-jaen-mailpress": "^0.0.3",
-    "gatsby-plugin-jaen": "^1.0.0-rc.100",
+    "gatsby-plugin-jaen": "^1.0.0-rc.102",
     "lucide-react": "^0.363.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
