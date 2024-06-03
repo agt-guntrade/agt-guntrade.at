@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "@atsnek/jaen": "^1.0.0-rc.86",
+    "@atsnek/jaen-fields-mdx": "^1.0.0-rc.20",
+    "@nikolovlazar/chakra-ui-prose": "^1.2.1",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
