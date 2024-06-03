@@ -8,6 +8,7 @@ const AGBPage: React.FC<PageProps> = ({ path }) => {
     <>
       <Field.Text
         name="content"
+        isRTF
         defaultValue={`Allgemeine Geschäftsbedingungen der Firma AGT Gun Trade GmbH
 
           (§ 1) Geltung gegenüber Unternehmern und Begriffsdefinitionen
